@@ -8,6 +8,10 @@ Console.Write("Первое: ");
 int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.Write("Второе: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
-if (firstNumber % secondNumber == 0)
-    Console.WriteLine("Число {0} кратно числу {1}", firstNumber, secondNumber);
-else  Console.WriteLine("Число {0} некратно числу {1}, остаток от деления: {2}", firstNumber, secondNumber, firstNumber % secondNumber);
+// if (firstNumber % secondNumber == 0)
+//     Console.WriteLine("Число {0} кратно числу {1}", firstNumber, secondNumber);
+// else  Console.WriteLine("Число {0} некратно числу {1}, остаток от деления: {2}", firstNumber, secondNumber, firstNumber % secondNumber);
+
+// string result = firstNumber % secondNumber == 0? "Первое число кратно второму":$"Первое число некратно второму, остаток от деления равен = {firstNumber % secondNumber}";
+//Console.WriteLine(result);
+Console.WriteLine(firstNumber % secondNumber == 0? "Первое число кратно второму":$"Первое число некратно второму, остаток от деления равен = {firstNumber % secondNumber}");
