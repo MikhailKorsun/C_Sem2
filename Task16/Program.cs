@@ -22,3 +22,11 @@ else
     }
     else
     Console.WriteLine("Числа не являются квадратами друг друга");
+
+// if (Math.Pow(secondNumber,2) == firstNumber || Math.Pow(firstNumber,2) == secondNumber)
+// {
+// Console.WriteLine("Одно из чисел является квадратом второго");
+// } else
+// {
+//     Console.WriteLine("Числа не являются квадратами друг друга");
+// }
