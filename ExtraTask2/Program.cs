@@ -17,21 +17,11 @@ Console.Write("x4 = ");
 int x4 = Convert.ToInt32(Console.ReadLine());
 int temp = 0;
 if (x1 > x2)
-{
-    temp = x2;
-    x2 = x1;
-    x1 = temp;
-}
+    (x1, x2) = (x2, x1);
 if (x3 > x4)
-{
-    temp = x4;
-    x4 = x3;
-    x3 = temp;
-}
+    (x3, x4) = (x4, x3);
 if (x2 < x3 || x4 < x1)
-{
     Console.WriteLine("Интервалы не пересекаются");
-} 
 else
 {
     if (x1 <= x3 && x2 <= x4)
